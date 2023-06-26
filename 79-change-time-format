@@ -22,7 +22,10 @@ public String changeTimeFormat(String strTime) {
     //String strHours = integer.toString(hours);
     //String strMinutes = integer.toString(minutes);
     if (strHours.length()==1) {
-        strhours= '0'+hour;
+        strHours= '0'+strHours;
+    }
+    if (strMinutes.lenght()==1){
+        strMinutes='0'+strMinutes;
     }
     Return strHours+':'+strMinutes+period;
 
