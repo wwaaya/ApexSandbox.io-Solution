@@ -17,5 +17,7 @@ public String changeTimeFormat(String strTime) {
         }
     }
     
-    return String.format('%02d:%02d %s', hours, minutes, period);
+    //return String.format('%02d:%02d %s', hours, minutes, period);
+
+    return hours+":"+minutes+" "+period);
 }
