@@ -25,6 +25,8 @@ public String changeTimeFormat(String strTime) {
 
     if (strHours.length()==1) {
         strHours= '0'+strHours;
+    }else{
+        
     }
     if (strMinutes.lenght()==1){
         strMinutes='0'+strMinutes;
