@@ -1,4 +1,8 @@
 public String changeTimeFormat(String strTime) {
+    
+}
+
+public String changeTimeFormat(String strTime) {
     String[] timeParts = strTime.split(':');
     Integer hours = Integer.valueOf(timeParts[0]);
     Integer minutes = Integer.valueOf(timeParts[1]);
@@ -13,7 +17,7 @@ public String changeTimeFormat(String strTime) {
     } else {
         period = 'PM';
         if (hours > 12) {
-            hours -= 12; // Convert hours greater than 12 to 12-hour format
+            hours = hours - 12; // Convert hours greater than 12 to 12-hour format
         }
     }
     
