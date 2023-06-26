@@ -17,12 +17,12 @@ public String changeTimeFormat(String strTime) {
         }
     }
     
-    String strHours = String.valueOf(hours);
-    String strMinutes = String.valueOf(minutes);
+    //String strHours = String.valueOf(hours);
+   // String strMinutes = String.valueOf(minutes);
     //String strHours = integer.toString(hours);
     //String strMinutes = integer.toString(minutes);
 
-    Return strHours+':'+strMinutes+period;
+    //Return strHours+':'+strMinutes+period;
 
-    //return System.format('%02d:%02d %s', new List<Object>{hours, minutes, period});
+    return System.format('%02d:%02d %s', new List<Object>{hours, minutes, period});
 }
