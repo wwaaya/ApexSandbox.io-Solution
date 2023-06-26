@@ -17,10 +17,10 @@ public String changeTimeFormat(String strTime) {
         }
     }
     
-    String strHours = String.valueOf(hours);
-    String strMinutes = String.valueOf(minutes);
-    //String strHours = integer.toString(hours);
-    //String strMinutes = integer.toString(minutes);
+    //String strHours = String.valueOf(hours);
+    //String strMinutes = String.valueOf(minutes);
+    String strHours = integer.toString(hours);
+    String strMinutes = integer.toString(minutes);
     if (strHours.length()==1) {
         strHours= '0'+strHours;
     }
