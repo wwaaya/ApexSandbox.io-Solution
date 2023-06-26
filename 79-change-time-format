@@ -17,5 +17,10 @@ public String changeTimeFormat(String strTime) {
         }
     }
     
-    return System.format('%02d:%02d %s', new List<Object>{hours, minutes, period});
+    String strHours = integer.toString(hours);
+    String strMinutes = integer.toString(minutes);
+
+    Return strHours+":"+strMinutes+" "+period;
+
+    //return System.format('%02d:%02d %s', new List<Object>{hours, minutes, period});
 }
