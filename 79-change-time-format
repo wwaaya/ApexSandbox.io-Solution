@@ -21,7 +21,7 @@ public String changeTimeFormat(String strTime) {
     String strMinutes = String.valueOf(minutes);
     //String strHours = integer.toString(hours);
     //String strMinutes = integer.toString(minutes);
-    if (strHour.length()==1) strhour= '0'+hour;
+    if (strHours.length()==1) strhours= '0'+hour;
     Return strHours+':'+strMinutes+period;
 
     //return String.format('%02d:%02d %s', hours, minutes, period);
