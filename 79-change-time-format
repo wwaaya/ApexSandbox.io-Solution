@@ -1,8 +1,4 @@
 public String changeTimeFormat(String strTime) {
-    
-}
-
-public String changeTimeFormat(String strTime) {
     String[] timeParts = strTime.split(':');
     Integer hours = Integer.valueOf(timeParts[0]);
     Integer minutes = Integer.valueOf(timeParts[1]);
