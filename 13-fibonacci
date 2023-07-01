@@ -1,11 +1,13 @@
 public Integer fibonacci(Integer n) {
+    Integer result = 1;
+
     if (n == 1 || n == 2) {
-        return 1;
+        return result;
     }
     /*
     Integer first = 1;
     Integer second = 1;
-    Integer result = 0;
+    
     
     for (Integer i = 3; i <= n; i++) {
         result = first + second;
@@ -13,5 +15,5 @@ public Integer fibonacci(Integer n) {
         second = result;
     }*/
     
-    //return result;
+    return result;
 }
