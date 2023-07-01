@@ -1,8 +1,5 @@
 public Integer fibonacci(Integer n) {
     //code here
-    integer i;
-    If (n = 1){
-        i = 1;
-    }
-    return i;
+
+    return n;
 }
