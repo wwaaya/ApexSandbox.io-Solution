@@ -1,7 +1,7 @@
 public Integer fibonacci(Integer n) {
     //code here
     if (n = 1){
-        return n;
+        return 1;
     }
     
 }
