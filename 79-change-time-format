@@ -28,13 +28,8 @@ public String changeTimeFormat(String strTime) {
     if (strMinutes.length()==1){
         strMinutes = '0' + strMinutes;
     }
-/*
-    if (strHours.length()==1) {
-        strHours= '0'+strHours;
-    }else if (strMinutes.lenght()==1){
-        strMinutes='0'+strMinutes;
-    }*/
-    Return strHours+':'+strMinutes+' '+period;
 
-    //return String.format('%02d:%02d %s', hours, minutes, period);
+    //Return strHours+':'+strMinutes+' '+period;
+
+    return String.format('%02d:%02d %s', hours, minutes, period);
 }
