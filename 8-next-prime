@@ -1,0 +1,9 @@
+public Integer nextPrime(Integer num) {
+    //code here
+    integer result;
+    if (num <= 1){
+        result = 3;
+    }
+
+    return result;
+}
