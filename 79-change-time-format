@@ -34,7 +34,7 @@ public String changeTimeFormat(String strTime) {
     }else if (strMinutes.lenght()==1){
         strMinutes='0'+strMinutes;
     }*/
-    Return strHours+':'+strMinutes+period;
+    Return strHours+':'+strMinutes+' '+period;
 
     //return String.format('%02d:%02d %s', hours, minutes, period);
 }
