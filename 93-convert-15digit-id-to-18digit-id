@@ -1,13 +1,21 @@
 public String convert15to18DigitId(String fifteenDigit)
-{
-    //code here
-    if (fifteenDigit = null){
-                return null;
-    } else if (fifteenDigit.size() < 15){
-        return 'Short';
-    }
 
-    Id eighteenDigit = fifteenDigit;
-    return eighteenDigit;
+{
+
+ //Code here
+
+ if(fifteenDigit == null)
+
+ return null;
+
+ else if(fifteenDigit.length()!=15)
+
+ return '-1';
+
+ Id eighteenDigit = fifteenDigit;
+
+ return eighteenDigit;
+
+ 
 
 }
