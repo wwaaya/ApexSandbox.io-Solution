@@ -2,7 +2,7 @@ public String reverseWordsInASentence(String sentence){
     List<string> words = sentence.split(' ');
 
     if(sentence==''){
-        return null;
+        return '';
     }
 
     Integer n = words.size() - 1;
