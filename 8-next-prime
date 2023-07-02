@@ -7,7 +7,7 @@ public Integer nextPrime(Integer num) {
     
     num=num+1;
 
-    while (isPrime(num)=false){
+    while (isPrime(num)==false){
         num++;
     }
     return num;
@@ -15,11 +15,11 @@ public Integer nextPrime(Integer num) {
     
     
 
-    public boolean isPrime (integer n){
+ public boolean isPrime (integer n){
         for (integer i = 2; i<n; i++){
             if(math.mod(n, i)==0){
                 return false;
             }        
         }
         return true;
-    }
+}
