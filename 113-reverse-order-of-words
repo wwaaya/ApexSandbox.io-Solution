@@ -3,15 +3,17 @@ public String reverseWordsInASentence(String sentence){
         return null; // or any other appropriate action
     }*/
 
+    if(sentence == null){
+        return null;
+    }
+
     List<string> words = sentence.split(' ');
 
     if(sentence=='' || sentence == null){
         return '';
     }
 
-    if(sentence == null){
-        return null;
-    }
+
 
     Integer n = words.size() - 1;
     String reverseWords = '';
