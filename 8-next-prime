@@ -12,8 +12,8 @@ public Integer nextPrime(Integer num) {
     return num;
     
 
-    public boolean isPrime (n+1){
-        for (integer i = 2; i<=n; i++){
+    public boolean isPrime (integer n){
+        for (integer i = 2; i<=n+1; i++){
             if(math.mod(n+1, i)==0){
                 return false;
             }        
