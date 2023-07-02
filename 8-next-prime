@@ -1,10 +1,10 @@
 public Integer nextPrime(Integer num) {
     //code here
-    integer result;
+  
     if (num <= 1){
-        result = 2;
+        return 2;
     }
-    return result;
+    return 2;
 
     while (!isPrime(num)){
         num++;
