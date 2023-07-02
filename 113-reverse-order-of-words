@@ -8,5 +8,5 @@ public String reverseWordsInASentence(String sentence){
     for (n;n>=0;n-1){
         reverseWords = reverseWords + words[n] + ' ';
     }
-    return reverseWords.trim();
+    return reverseWords;
 }
