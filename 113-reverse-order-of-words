@@ -5,7 +5,7 @@ public String reverseWordsInASentence(String sentence){
         return '';
     }
     if(sentence == null){
-        return;
+        return null;
     }
 
     Integer n = words.size() - 1;
