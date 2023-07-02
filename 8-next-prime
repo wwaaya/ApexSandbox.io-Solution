@@ -11,6 +11,8 @@ public Integer nextPrime(Integer num) {
         num++;
     }
     return num;
+}
+    
     
 
     public boolean isPrime (integer n){
@@ -21,5 +23,3 @@ public Integer nextPrime(Integer num) {
         }
         return true;
     }
-    return num;
-}
