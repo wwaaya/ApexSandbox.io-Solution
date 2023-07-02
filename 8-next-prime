@@ -6,7 +6,8 @@ public Integer nextPrime(Integer num) {
     }
     
     num=num+1;
-    while (!isPrime(num)){
+
+    while (isPrime(num)=false){
         num++;
     }
     return num;
