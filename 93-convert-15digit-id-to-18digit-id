@@ -7,7 +7,7 @@ public String convert15to18DigitId(String fifteenDigit)
         return 'Short';
     }
 
-    String eighteenDigit = convert15to18DigitId(fifteenDigit);
+    Id eighteenDigit = fifteenDigit;
     return eighteenDigit;
 
 }
