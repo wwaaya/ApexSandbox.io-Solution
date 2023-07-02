@@ -5,7 +5,7 @@ public String reverseWordsInASentence(String sentence){
     integer n = words.size() - 1;
     String reverseWords = '';
 
-    for (n;n>=0;n-1){
+    for (n;n>=0;n-=1){
         reverseWords = reverseWords + words[n] + ' ';
     }
     return reverseWords;
